@@ -4,7 +4,7 @@ const Header = () => {
     <div className="navbar bg-blue-500 ">
       <div className="flex-1">
         <a className="btn btn-ghost w-40 h-20 ">
-          <img src="../../src/assets/logo.svg" alt="" />
+          <img src="/logo.svg" alt="" />
         </a>
       </div>
       <div className="flex-none">
