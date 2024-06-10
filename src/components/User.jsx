@@ -1,11 +1,10 @@
 import { Link } from 'react-router-dom';
-
-const Content = () => {
+const User = () => {
   return (
-    <div className="flex flex-col items-center justify-center  h-[85vh]">
+    <div className="flex flex-col items-center justify-center  h-[85vh] ">
       <div className="flex flex-col items-center text-4xl font-bold gap-5 mb-10">
         <p>Generation Thailand</p>
-        <p>React - Assessment</p>
+        <p>Home - User Sector</p>
       </div>
       <div className="flex gap-6">
         <Link to="/user">
@@ -19,4 +18,4 @@ const Content = () => {
   );
 };
 
-export default Content;
+export default User;

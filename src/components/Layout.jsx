@@ -1,13 +1,20 @@
 import Header from './Header';
-import Footer from './Footer';
 import Content from './Content';
+import Owner from './Owner';
+import User from './User';
+import Admin from './Admin';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 const Layout = () => {
   return (
-    <div>
+    <BrowserRouter>
       <Header />
-      <Content />
-      <Footer />
-    </div>
+      <Routes>
+        <Route path="/" element={<Content />} />
+        <Route path="/owner" element={<Owner />} />
+        <Route path="/user" element={<User />} />
+        <Route path="/admin" element={<Admin />} />
+      </Routes>
+    </BrowserRouter>
   );
 };
 
