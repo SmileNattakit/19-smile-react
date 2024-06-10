@@ -19,7 +19,6 @@ const User = ({ userData }) => {
         <table className="table mt-10">
           <thead className="bg-base-200 ">
             <tr>
-              <th>No.</th>
               <th>Name</th>
               <th>Last Name</th>
               <th>Position</th>
@@ -28,7 +27,6 @@ const User = ({ userData }) => {
           <tbody>
             {userData.map((user) => (
               <tr key={user.id}>
-                <th>{user.id}</th>
                 <td>{user.name}</td>
                 <td>{user.lastname}</td>
                 <td>{user.position}</td>

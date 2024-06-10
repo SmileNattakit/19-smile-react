@@ -4,7 +4,7 @@ const Owner = () => {
       <div className="flex flex-col items-center  gap-5 mb-10">
         <p className="text-4xl font-bold">Smile - Genmate E - 19</p>
         <img
-          src="../../src/assets/user.jpg"
+          src="/user.jpg"
           alt="User Profile"
           className="w-40 h-40 rounded-full my-5"
         />
